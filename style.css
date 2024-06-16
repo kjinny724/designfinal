@@ -1,0 +1,25 @@
+/* font */
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic+Coding&display=swap');
+
+body {
+    font-family: "Nanum Gothic Coding", monospace;
+}
+
+/* 네비게이션 영역 */
+.nav-link:hover,
+.nav-link.active {
+    color: #ffc107 !important;
+}
+
+/* home */
+.card-hover:hover {
+    background-color: #ffc10726;
+}
+
+p {
+    font-size: 10pt;
+}
+
+footer {
+    background-color: rgb(140, 112, 19);
+}
