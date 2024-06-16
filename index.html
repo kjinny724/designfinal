@@ -1,20 +1,19 @@
 <!DOCTYPE html>
-<html lang="ko"></html>
-<html>
+<html lang="ko">
     <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
-    <title>미사강변 센트럴 풍경채_홈</title>
+    <title>미사강변 센트럴 풍경채</title>
     <link rel="stylesheet" href="style.css">
     </head>
 
     <body>
     
     <!-- 네비게이션 -->
-    <nav class="navbar navbar-expand-md bg-white navbar-dark fixed-top">
+    <nav class="navbar navbar-expand-md bg-white navbar-dark bg-opacity-50 fixed-top">
         <div class="container">
             <a class="gugi-font navbar-brand" href="main.html">
                 <img src="jpg/logo.png" alt="logo" width="80" height="auto">
@@ -47,125 +46,49 @@
         </div>
     </nav>
 
-    <!-- home -->
-    <section class="container overflow-hidden py-5" id="home">
 
-        <div class="text-center py-5">
-            <h2 class="fw-bold mb-3">홈</h2>
-            <p class="lead text-muted">풍경채 생활 A부터 Z까지</p>
-        </div>
 
-        <div class="row mb-5 g-4">
-            <div class="col-md-6">
-                <div class="card-hover shadow rounded p-4" id="card">
-                    <div class="d-flex align-items-center py-3">
-                        <img src="jpg/back.jpg" alt="서비스 1" class="rounded-circle" width="100px" height="100px">
-                        <div class="ms-3">
-                            <h3 class="fw-bold">주소</h3>
-                            <p class="text-muted">미사강변 센트럴 풍경채</p>
-                        </div>
-                    </div>
-                    <p>도로명: 경기 하남시 미사강변서로 65</p>
-                    <p>지번: 풍산동 471</p>
-                    <p>우편번호: 12916</p>
-                </div>
+    <!-- 헤더 -->
+    <header id="home" class="d-flex flex-column justify-content-center align-items-center vh-100 text-white">
+
+        <img src="jpg/logo.png" alt="logo" width="300" height="auto">
+    </header>
+
+    <!-- 소개 / about -->
+    <section class="container py-5" id="about">
+
+        <div class="text-center py-7">
+            <img src="jpg/logo.png" alt="logo">
+        <div class="row justify-content-center align-items-center mb-5">
+            <div class="col-md-7 py-5">
+                <img src="jpg/back.jpg" alt="back" class="img-fluid">
             </div>
-
-            <div class="col-md-6">
-                <div class="card-hover shadow rounded p-4">
-                    <div class="d-flex justify-content-end align-items-center py-3">
-                        <div class="text-end me-3">
-                            <h3 class="fw-bold">아파트 시설</h3>
-                            <p class="text-muted">아파트 단지 안에 있는 다양한 시설들</p>
-                        </div>
-                        <img src="jpg/back3.jpg" alt="서비스 2" class="rounded-circle" width="100px" height="100px">
-                    </div>
-                    <p>1층 외부에는 단지 내에 입주민들을 위한 까페가 있습니다. 또한 어린이를 위한 작은 놀이터부터 초등학생을 위한 놀이터와 다양한 사람들을 위한 분수, 축구장이 있습니다.</p>
-                    <p>지하 1층에는 도서관, 찜질방, pt실 등 다양한 시설들이 있습니다.</p>
-                    <p>더 많은 정보를 원하시면 '소개'란으로 이동해 주세요</p>
-                </div>
-            </div>
-
-            <div class="col-md-6">
-                <div class="card-hover shadow rounded p-4">
-                    <div class="d-flex align-items-center py-3">
-                        <img src="jpg/back4.jpg" alt="서비스 3" class="rounded-circle" width="100px" height="100px">
-                        <div class="ms-3">
-                            <h3 class="fw-bold"> 재활용</h3>
-                            <p class="text-muted">수거 및 청소 일자</p>
-                        </div>
-                    </div>
-                    <p>요일: 수요일, 일요일 </p>
-                    <p>시간: 오전 9시 ~ 다음날 오전 6시 </p>
-                </div>
-            </div>
-
-            <div class="col-md-6">
-                <div class="card-hover shadow rounded p-4">
-                    <div class="d-flex justify-content-end align-items-center py-3">
-                        <div class="text-end me-3">
-                            <h3 class="fw-bold">주변 편의시설</h3>
-                            <p class="text-muted">도보 10분 ~ 15분 거리</p>
-                        </div>
-                        <img src="jpg/도로.jpg" alt="서비스 4" class="rounded-circle" width="100px" height="100px">
-                    </div>
-                    <p>코스트코, Gs 25 우리동네 마트</p>
-                    <p>아이스크림 할인점, 세븐일레븐, CU, 1933미용실, 카페</p>
-                </div>
+            <div class="col-md-7 col-lg-5 px-lg-5">
+                <h3 class="fw-bold mb-3 py-2">미사강변 센트럴 풍경채</h3>
+                <p class="lh-lg">주소: 경기 하남시 미사강변서로 65 </p>
+                <p class="lh-lg">우편번호: 12916 </p>
             </div>
         </div>
     </section>
 
-    <!-- 풍경 -->
-    <section class="container overflow-hidden py-5" id="home2">
+    <!-- 찾아오는 길 -->
+    <section class="container py-5">
+
         <div class="text-center py-5">
-            <h2 class="fw-bold mb-3">풍경</h2>
-            <p class="lead text-muted">우리 아파트 아름다운 풍경</p>
+            <h2 class="fw-bold">찾아오는 길</h2>
+        <div class="row justify-content-center align-items-center mb-5">
+            <div class="col-md-7 py-5">
+                <img src="jpg/길.png" alt="back" class="img-fluid">
+            </div>
         </div>
-    <div id="carouselExample" class="carousel slide">
-        <div class="carousel-inner">
-          <div class="carousel-item active">
-            <img src="jpg/back.jpg" class="d-block w-100" alt="back">
-          </div>
-          <div class="carousel-item">
-            <img src="jpg/back2.jpg" class="d-block w-100" alt="back2">
-          </div>
-          <div class="carousel-item">
-            <img src="jpg/도로.jpg" class="d-block w-100" alt="도로">
-          </div>
-          <div class="carousel-item">
-            <img src="jpg/back3.jpg" class="d-block w-100" alt="back3">
-          </div>
-          <div class="carousel-item">
-            <img src="jpg/back4.jpg" class="d-block w-100" alt="back4">
-          </div>
-          <div class="carousel-item">
-            <img src="jpg/back5.jpg" class="d-block w-100" alt="back5">
-          </div>
-          <div class="carousel-item">
-            <img src="jpg/back6.jpg" class="d-block w-100" alt="back6">
-          </div>
-        </div>
-        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
-          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Previous</span>
-        </button>
-        <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
-          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Next</span>
-        </button>
-      </div>
     </section>
 
-     <!-- 풋터 -->
+    <!-- 풋터 -->
     <footer class="text-white">
         <div class="container text-center">
             <p class="py-4 mb-0">관리사무소 02-123-4567</a></p>
         </div>
     </footer>
-
-
-
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
