@@ -11,13 +11,13 @@ body {
     color: #ffc107 !important;
 }
 
-/* home */
-.card-hover:hover {
-    background-color: #ffc10726;
-}
 
-p {
-    font-size: 10pt;
+/* 헤더 영역 */
+header {
+    background-image: linear-gradient(to top, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.1)), url(jpg/back2.jpg);
+    background-size: cover;
+    background-position: center top;
+    background-attachment: fixed;
 }
 
 footer {
